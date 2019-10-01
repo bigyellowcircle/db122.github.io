@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Add Files</title>
+</head>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.js"></script>
+<script type="text/javascript" src="js2.js"></script>
+<link rel="stylesheet" type="text/css" href="style2.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="1511-KWDYWH.css">
+   
+
+<div class="uploader">
+
+  <div id="header"> 
+
+    <div class="logo"><img src="logo.png" width="36px" height="30px"></div>
+    <br/><br/>
+    <div class="page-title">
+      <h1>Start by uploading your files</h1>
+      <img src="newfolder.png" width="107px" class="newfoldericon">
+    </div> 
+
+    <ul class="uploader-bullets">
+      <li> Upload all your stuff—photos, videos, docs, spreadsheets, presentations, music, and more </li>
+
+       <li>Everything you add to Dropbox is accessible on all your computers, phones, and tablets </li>
+       
+       <li>Dropbox uses multiple layers of security—including advanced encryption technology—to keep your stuff safe </li>    
+
+    </ul>  
+
+           <p class="skip-text">Skip</p>
+
+          <ul class="visualizacao sortable dropzone-previews">
+          
+        </ul> 
+
+        <a href="files.html" class="upload-cta">Upload</a> 
+
+  </div>
+
+
+
+   <form action="/upload" class="dropzone" drop-zone="" id="file-dropzone">
+   
+      <div id="drag-zone-area">
+
+        <div id="overlay-main">
+          <img src="dropfolders.png" width="428px">
+        </div>
+
+        <div class="inside-drag"> 
+          <img src="drag.png" width="115px" height="133px"> <br/>
+          <p>Drag files here or <span class="sapphire">add from your computer</span> </p> 
+        </div>
+
+      </div> 
+
+    
+      <span class="dz-message"></span>
+
+
+
+
+
+
+
+
+
+   </form>
+
+
+
+    <div class="preview" style="display:none;">
+      <li>
+        <div>
+        <div class="dz-preview dz-file-preview">
+           <img data-dz-thumbnail class="thumbnail" />
+           <div class="dz-filename"><span data-dz-name></span></div>
+           <div class="dz-size" data-dz-size></div>
+           <img src="close.png" class="close" alt="Click me to remove the file." data-dz-remove />
+
+      </div>
+        </div>
+      </li> 
+
+
+
+    </div>
+
+</div>
+

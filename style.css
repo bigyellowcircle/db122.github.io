@@ -1,0 +1,120 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.0.1/min/dropzone.min.css');
+
+body {font-family: 'Atlas Grotesk Web'; font-size: 14px; margin: 0}
+h1 {font-weight: 900; font-size: 28px; text-align: left}
+
+.sortable {width: 750px;  margin-left: auto; margin-right: auto; margin-top: 20px;}
+.sortable li {width: 750px}
+
+#drag-zone-area {width: 750px; height: 75vh;border: 2px dashed #A5A9AF;position: relative;z-index: -1;margin: 0 auto;-webkit-border-radius: 12px;
+-moz-border-radius: 12px; border-radius: 12px;}
+
+.dropzone {height: 75vh; border: 0px; background: none;/*padding: 20px 20px;*/}
+.dropzone .dz-preview {display: block; min-height: 60px; margin: 0;padding: 12px;}
+.inside-drag {transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;}
+.inside-drag img {display: block;margin: 0 auto;}
+.inside-drag p {text-align: center; font-size: 16px; float: left;   line-height: 21px;}
+.inside-drag-second {  margin-top: 0px;
+    position: fixed;
+    text-align: center;
+    top: -183px;
+    left: 0;
+    right: 0;}
+
+
+
+.drag-zone-area-small {height: 80px !important}
+
+#header {margin-left: 40px; margin-right: 40px;margin-top: 40px;}
+.logo {float: left;}
+.page-title {margin: 0 auto;width: 750px;}
+.skip {position: fixed; top: 40px; right: 40px; color: #A5A9AF}
+.dz-remove {display: none;}
+
+.sortable {
+  padding: 0;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.sortable li {
+    float: left;
+    width: 750px;
+    height: 65px;
+    overflow: hidden;
+    border-bottom: 1px solid #DDDFE1;
+    text-align: center;
+		}
+
+	li.sortable-placeholder {
+			border: 1px dashed #CCC;
+			background: none;
+		}
+
+.thumbnail {float: left; width: 40px; height: 40px;   object-fit: cover;-webkit-border-radius: 4px;
+-moz-border-radius: 2px; border-radius: 2px;}
+
+.dz-filename {float: left; margin-left: 11px;line-height: 38px;} 
+.dz-size {float: right; margin-right: 250px;line-height: 38px;font-weight: 400 !important; color: #717781}
+.dz-size strong {font-weight: 400 !important;}
+
+
+   .footer {background-color: #FAFAFA; border-top: 1px solid #DDDFE1; height: 60px; position: fixed;left: 0;
+  bottom: 0;width: 100%; z-index: 1}
+
+  #overlay-main {height: 100%;width: 100%;opacity: 0;position: fixed;top: 0;left: 0;background-color: #1D2737;padding: 0; z-index: 20; display: none}
+#overlay-main img {    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute; z-index: 9999}
+
+#overlay-main p {color: #fff; font-size: 28px; text-align: center; line-height: 100vh}
+.close {float: right; right: 0;
+margin-right: 20px;
+position: absolute;top: 20px;display: none}
+
+.dz-preview:hover .close {display: block;}
+
+.footer-inside {width: 750px; margin: 0 auto}
+.footer-inside h2 {float: left; font-size: 16px; line-height: 30px}
+.footer-inside a {float: right; text-decoration: none; background-color: #DDDFE1; padding-left: 15px; padding-right: 15px; padding-top: 11px; padding-bottom: 10px; color: #fff; -webkit-border-radius: 4px;
+-moz-border-radius: 4px; border-radius: 4px; font-size: 14px; font-weight: 500; margin-top: 13px}
+
+.sapphire-button { background-color:#0D2481 !important}
+.sapphire {color: #0D2481; text-decoration: underline;}
+
+
+
+
+
+/* Home */
+
+#left-side {width: 65%; background-color: #0d2f81; float: left}
+#left-side-inside {margin-left: 8%; height: 100vh; margin-top: 20px}
+#right-side-inside {height: 100vh; margin-top: 40px; margin-left: 8%;}
+#right-side {width: 35%; float: left; background-color: #fff}
+.main-nav-1 {margin-bottom: 80px;}
+.main-nav-2 {margin-bottom: 80px; float: right; margin-right: 20px}
+.hero-image {margin-top: 30px}
+
+.sign-up {margin-top: 40%}
+.sign-up h2 {font-size: 26px; font-weight: 400;font-family: 'Atlas Grotesk Web';}
+.sign-up input {border:1px solid #BEC4C8; height: 45px; padding-left: 20px; 
+  font-size: 14px;font-family: 'Atlas Grotesk Web'; width: 360px;
+  margin-bottom: 22px; padding-top: 4px;}
+
+ .sign-up a {background-color: #2465F6; color: #fff; width: 380px; height: 44px; display: block; text-align: center; text-decoration: none; line-height: 44px} 
+
+
+
+
+
+
+
