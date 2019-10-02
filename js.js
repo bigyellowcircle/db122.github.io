@@ -41,7 +41,7 @@ $.getScript('https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.0.1/min/dropzone.
          $('#overlay-main').css('opacity', '0');
          $('.inside-drag').css('height', '80px');
         $('.inside-drag img').css('display', 'none');
-        $(".page-title h1").text("Files to Upload");
+        $(".page-title h1").text("Files to be uploaded");
          // $('#drag-zone-area p').css('line-height', '50px');        
          // $( ".inside-drag" ).addClass( "inside-drag-second" );
          $( ".footer-inside a" ).addClass( "sapphire-button" );

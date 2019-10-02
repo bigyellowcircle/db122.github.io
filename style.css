@@ -16,7 +16,7 @@ h1 {font-weight: 900; font-size: 28px; text-align: left}
     left: 50%;
     position: absolute;}
 .inside-drag img {display: block;margin: 0 auto;}
-.inside-drag p {text-align: center; font-size: 16px; float: left;   line-height: 21px;}
+.inside-drag p {text-align: center; font-size: 16px; float: left;   line-height: 21px;width: 500px;}
 .inside-drag-second {  margin-top: 0px;
     position: fixed;
     text-align: center;

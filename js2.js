@@ -43,11 +43,13 @@ $.getScript('https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.0.1/min/dropzone.
          $('#overlay-main').css('opacity', '0');
          $('.uploader-bullets').css('display', 'none');
          $( ".footer-inside a" ).addClass( "sapphire-button" );
-         $(".page-title h1").text("Files"); 
+         $(".page-title h1").text("Files to be uploaded"); 
          $(".page-title").css('margin-top', '50px');
          $('.upload-cta').css('display', 'block');     
          $('.newfoldericon').css('display', 'block'); 
          $('.skip-text').css('display', 'none');        
+         var count = $('ul.sortable').children().length;
+         $('.results').text(count);
 
       });
 
