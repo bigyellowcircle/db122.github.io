@@ -32,7 +32,7 @@ h1 {font-weight: 900; font-size: 35px; text-align: left; line-height: 51px;}
     right: 0;}
 
 .uploader {padding: 50px}
-#header ul {margin-top: 40px; padding-left: 0px; font-size: 16px; line-height: 24px;}
+#header ul {float: left;margin-top: 40px; padding-left: 0px; font-size: 16px; line-height: 24px;    list-style: decimal;}
 #header li {margin-bottom: 18px} 
 
 .drag-zone-area-small {height: 80px !important}

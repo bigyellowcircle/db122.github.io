@@ -46,16 +46,19 @@ $.getScript('https://cdnjs.cloudflare.com/ajax/libs/dropzone/4.0.1/min/dropzone.
          // $( ".inside-drag" ).addClass( "inside-drag-second" );
          $( ".footer-inside a" ).addClass( "sapphire-button" );
          $( "#drag-zone-area" ).addClass( "drag-zone-area-small" );
-         $(".footer-inside h2").text("Great job! Add more files or go to Dropbox");        
+         $(".footer-inside h2").text("Great job! Add more files or click Upload"); 
+         // $('.sortable li').css('border-bottom', '1px solid #DDDFE1;');        
       });
 
      this.on("dragenter", function(event) {
         $('#overlay-main').css('opacity', '.85');
         $('#overlay-main').css('display', 'block');
+        $('.sortable li').css('border-bottom', '0');
       });
 
      this.on("dragleave", function(event) {
           $('#overlay-main').css('opacity', '0');
+
       });
 
       //  this.on("drop", function(event) {
